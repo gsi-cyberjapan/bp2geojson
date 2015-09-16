@@ -2,11 +2,11 @@
 [proof of concept] Bunch of photos to GeoJSON, in Ruby
 
 ## What is this?
-bp2geojson.rb takes a directories and search for JPEG files.
+bp2geojson.rb takes a list of directories and search for JPEG files from them.
 
-When it sees JPEG file, it try to take GPS location data from it.
+When it sees a JPEG file, it try to collect GPS location data from it.
 
-Finally, it outputs the location data as a GeoJSON file.
+Finally, it outputs the all collected location data as a GeoJSON file.
 
 Just a proof of concept.
 
